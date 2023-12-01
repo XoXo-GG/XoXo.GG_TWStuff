@@ -1,4 +1,5 @@
 console.log("startttt")
+console.log("Modified 2")
 
 "use strict";
 let buildingObject;
