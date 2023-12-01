@@ -1,17 +1,3 @@
-// ==UserScript==
-// @name         Auto Builder
-// @version      0.5.4
-// @description  Adds buildings to queue automatically
-// @author       FunnyPocketBook
-// @match        https://*/game.php?**village=*&screen=main*
-// @grant        none
-// ==/UserScript==
-
-/**
- * TODO
- * - buildingQueue.splice(0, 1); might cause issues because of async
- */
-
 console.log("startttt")
 
 "use strict";
