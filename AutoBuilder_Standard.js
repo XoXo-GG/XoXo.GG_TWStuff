@@ -12,6 +12,8 @@
  * - buildingQueue.splice(0, 1); might cause issues because of async
  */
 
+console.log("startttt")
+
 "use strict";
 let buildingObject;
 let selection;
