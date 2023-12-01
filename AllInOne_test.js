@@ -5,11 +5,8 @@
     function loadScript(repository, file) {
         const scriptURL = `https://raw.githubusercontent.com/${repository}/main/${file}`;
 
-        const script2 = document.createElement('script');
-        script2.src = scriptURL;
-        console.log("Script2:",scriptURL);
-        document.head.appendChild(script2);
-        /*GM_xmlhttpRequest({
+
+        GM_xmlhttpRequest({
             method: 'GET',
             url: scriptURL,
             onload: function(response) {
@@ -18,7 +15,7 @@
                 scriptElement.textContent = scriptCode;
                 document.head.appendChild(scriptElement);
             }
-        });*/
+        });
     }
 
 // script1.js
