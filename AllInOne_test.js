@@ -7,6 +7,7 @@
 
         const script2 = document.createElement('script');
         script2.src = scriptURL;
+        console.log("Script2:",scriptURL);
         document.head.appendChild(script2);
         /*GM_xmlhttpRequest({
             method: 'GET',
