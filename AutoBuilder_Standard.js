@@ -1,5 +1,4 @@
-console.log("startttt")
-console.log("Modified 2")
+console.log("Saved at 06:01")
 
 "use strict";
 let buildingObject;
